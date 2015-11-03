@@ -12,6 +12,13 @@
 		8CD431BC1BE9565400132685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD431BA1BE9565400132685 /* Main.storyboard */; };
 		8CD431BE1BE9565400132685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD431BD1BE9565400132685 /* Assets.xcassets */; };
 		8CD431C11BE9565400132685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD431BF1BE9565400132685 /* LaunchScreen.storyboard */; };
+		8CD431C91BE9626A00132685 /* TimelineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431C81BE9626A00132685 /* TimelineTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431CB1BE9642F00132685 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431CA1BE9642F00132685 /* PostDetailTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431CD1BE965AE00132685 /* UserListSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431CC1BE965AE00132685 /* UserListSearchTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431CF1BE965EB00132685 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431CE1BE965EB00132685 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431D11BE9674C00132685 /* AddPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431D01BE9674C00132685 /* AddPhotoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431D31BE9686300132685 /* LoginSignupPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431D21BE9686300132685 /* LoginSignupPickerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8CD431D51BE96BE200132685 /* LoginSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD431D41BE96BE200132685 /* LoginSignupViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		8CD431BD1BE9565400132685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CD431C01BE9565400132685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CD431C21BE9565400132685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD431C81BE9626A00132685 /* TimelineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewController.swift; sourceTree = "<group>"; };
+		8CD431CA1BE9642F00132685 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
+		8CD431CC1BE965AE00132685 /* UserListSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListSearchTableViewController.swift; sourceTree = "<group>"; };
+		8CD431CE1BE965EB00132685 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8CD431D01BE9674C00132685 /* AddPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoTableViewController.swift; sourceTree = "<group>"; };
+		8CD431D21BE9686300132685 /* LoginSignupPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupPickerViewController.swift; sourceTree = "<group>"; };
+		8CD431D41BE96BE200132685 /* LoginSignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				8CD431B61BE9565400132685 /* AppDelegate.swift */,
 				8CD431B81BE9565400132685 /* ViewController.swift */,
 				8CD431BA1BE9565400132685 /* Main.storyboard */,
+				8CD431D01BE9674C00132685 /* AddPhotoTableViewController.swift */,
+				8CD431D21BE9686300132685 /* LoginSignupPickerViewController.swift */,
+				8CD431D41BE96BE200132685 /* LoginSignupViewController.swift */,
+				8CD431CE1BE965EB00132685 /* ProfileViewController.swift */,
+				8CD431CA1BE9642F00132685 /* PostDetailTableViewController.swift */,
+				8CD431CC1BE965AE00132685 /* UserListSearchTableViewController.swift */,
+				8CD431C81BE9626A00132685 /* TimelineTableViewController.swift */,
 				8CD431BD1BE9565400132685 /* Assets.xcassets */,
 				8CD431BF1BE9565400132685 /* LaunchScreen.storyboard */,
 				8CD431C21BE9565400132685 /* Info.plist */,
@@ -134,8 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD431CF1BE965EB00132685 /* ProfileViewController.swift in Sources */,
 				8CD431B91BE9565400132685 /* ViewController.swift in Sources */,
+				8CD431CD1BE965AE00132685 /* UserListSearchTableViewController.swift in Sources */,
+				8CD431C91BE9626A00132685 /* TimelineTableViewController.swift in Sources */,
+				8CD431D51BE96BE200132685 /* LoginSignupViewController.swift in Sources */,
+				8CD431D31BE9686300132685 /* LoginSignupPickerViewController.swift in Sources */,
+				8CD431CB1BE9642F00132685 /* PostDetailTableViewController.swift in Sources */,
 				8CD431B71BE9565400132685 /* AppDelegate.swift in Sources */,
+				8CD431D11BE9674C00132685 /* AddPhotoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
